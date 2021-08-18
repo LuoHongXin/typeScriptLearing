@@ -4,3 +4,6 @@ document.getElementsByClassName("app")[0].innerHTML = hello;
 // import "./interface";
 // import "./function";
 // import "./class";
+// import "./genericity";
+// import "./typeCheck";
+import "./highType";

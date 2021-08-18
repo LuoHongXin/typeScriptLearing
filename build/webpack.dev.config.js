@@ -1,3 +1,9 @@
 module.exports = {
-    devtool:'cheap-module-eval-source-map'
+  presets: ['@babel/typescript'],
+  plugins: [
+    '@babel/plugin-transform-modules-commonjs',
+    '@babel/proposal-class-properties',
+    '@babel/proposal-object-rest-spread',
+  ],
+  devtool:'cheap-module-eval-source-map'
 }
